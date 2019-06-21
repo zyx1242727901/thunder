@@ -24,6 +24,7 @@
 		<module>common/thunder-common</module>
 		<module>thunderapi/thunder-api</module>
 		<module>thunderapi/thunder-model</module>
+		<module>eureka/eureka-server</module>
 	</modules>
 
 

@@ -11,7 +11,7 @@
 	<groupId>com</groupId>
 	<artifactId>thunder-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>thunder-api</name>
 	<description>Demo project for Spring Boot</description>
 
