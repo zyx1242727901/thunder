@@ -23,8 +23,10 @@
 	<modules>
 		<module>common/thunder-common</module>
 		<module>thunderapi/thunder-api</module>
+		<module>thunderapi/thunder-service</module>
 		<module>thunderapi/thunder-model</module>
 		<module>eureka/eureka-server</module>
+		<module>eureka/eureka-client</module>
 	</modules>
 
 
