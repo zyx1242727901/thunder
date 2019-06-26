@@ -1,17 +1,11 @@
-spring:
-  datasource:
-      username: root
-      password: 123456
-      url: jdbc:mysql://39.105.95.181:3306/thunderdb?useUnicode=true&amp;characterEncoding=utf-8
-      driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: thunder-api
-
+server:
+  port: 1112
 
 eureka:
   client:
       serviceUrl:
        defaultZone: http://localhost:1111/eureka/
+
 
 
 
