@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @EnableFeignClients
-@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class},scanBasePackages = "com.thunder")
+@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 public class ThunderApiApplication{
 
 	public static void main(String[] args) {
