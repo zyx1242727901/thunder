@@ -11,21 +11,17 @@ spring:
       view:
         prefix: /pages/
         suffix: .jsp
-    application:
-      name: thunder-eureka
+
 
 
 application:
       messages: hello ZYX
 eureka:
   client:
-#      register-with-eureka: false
-#      fetch-registry: false
       serviceUrl:
        defaultZone: http://localhost:1111/eureka/
+      register-with-eureka: false
 
-  instance:
-    hostname: ali-thunder
 
 
 
